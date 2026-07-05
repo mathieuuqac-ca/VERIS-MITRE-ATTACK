@@ -1,0 +1,27 @@
+{
+  "incident_id": "SAMPLE-001",
+  "summary": "Example incident for testing the E3 pipeline. The incident involves phishing and potential credential theft.",
+  "actor": {
+    "external": true
+  },
+  "action": {
+    "social": {
+      "vector": {
+        "phishing": true
+      }
+    }
+  },
+  "asset": {
+    "user": true
+  },
+  "attribute": {
+    "confidentiality": {
+      "data_disclosure": true
+    }
+  },
+  "timeline": {
+    "incident": {
+      "year": 2024
+    }
+  }
+}

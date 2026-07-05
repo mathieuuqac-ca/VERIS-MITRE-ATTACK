@@ -1,0 +1,27 @@
+{
+  "project_name": "veris_attack_mapping",
+  "task": "VERIS_to_ATTACK",
+  "model_family": "BERT/RoBERTa ou petit LLM selon choix E1",
+  "base_model_placeholder": "distilroberta-base",
+  "data": {
+    "train_file": "data/processed/train.jsonl",
+    "dev_file": "data/processed/dev.jsonl",
+    "test_file": "data/processed/test.jsonl"
+  },
+  "training": {
+    "output_dir": "outputs/training_runs/veris_attack_finetune",
+    "num_train_epochs": 3,
+    "learning_rate": 2e-05,
+    "batch_size": 8,
+    "gradient_accumulation_steps": 1,
+    "save_steps": 100,
+    "eval_steps": 100,
+    "logging_steps": 20,
+    "keep_last_checkpoints": 3
+  },
+  "monitoring": {
+    "log_gpu_every_seconds": 30,
+    "track_loss_curve": true,
+    "track_gpu_memory": true
+  }
+}

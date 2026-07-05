@@ -1,0 +1,27 @@
+{
+  "incident_id": "SAMPLE-002",
+  "summary": "Example incident where malware was discovered on a workstation after suspicious activity.",
+  "actor": {
+    "external": true
+  },
+  "action": {
+    "malware": {
+      "variety": {
+        "ransomware": true
+      }
+    }
+  },
+  "asset": {
+    "user_dev": true
+  },
+  "attribute": {
+    "availability": {
+      "interruption": true
+    }
+  },
+  "timeline": {
+    "incident": {
+      "year": 2023
+    }
+  }
+}

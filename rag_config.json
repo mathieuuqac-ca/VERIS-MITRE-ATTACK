@@ -1,0 +1,19 @@
+{
+  "project": "VERIS_ATTACK_RAG",
+  "task": "Week 7 E3 - Vector store + retrieval integration",
+  "attack_stix_file": "data/raw/attack/enterprise-attack.json",
+  "techniques_jsonl": "data/processed/attack/attack_techniques.jsonl",
+  "techniques_csv": "data/processed/attack/attack_techniques.csv",
+  "vector_store_dir": "outputs/rag/attack_vector_store",
+  "backend": "sklearn",
+  "retrieval": {
+    "top_k": 5,
+    "min_score": 0.0
+  },
+  "inference": {
+    "input_incidents": "data/processed/incidents_clean.jsonl",
+    "output_candidates": "outputs/rag/rag_candidates.jsonl",
+    "output_predictions": "outputs/rag/rag_predictions_mock.jsonl",
+    "prompt_template": "prompts/rag_prompt.txt"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Semaine 2 - Ingestion VCDB limit 20",
+      "type": "python",
+      "request": "launch",
+      "module": "e3_pipeline.ingest_vcdb",
+      "args": ["--limit", "20"],
+      "console": "integratedTerminal",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+      }
+    },
+    {
+      "name": "Semaine 4 - Wrapper LLM mock limit 5",
+      "type": "python",
+      "request": "launch",
+      "module": "e3_pipeline.llm_wrapper",
+      "args": ["--mock", "--limit", "5"],
+      "console": "integratedTerminal",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+      }
+    }
+  ]
+}

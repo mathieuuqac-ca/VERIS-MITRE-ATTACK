@@ -1,0 +1,44 @@
+2026-06-18 06:02:44,539 | INFO | Début wrapper API : 2 incidents
+2026-06-18 06:03:40,813 | INFO | Début wrapper API : 2 incidents
+2026-06-18 06:04:40,560 | INFO | Début wrapper API : 2 incidents
+2026-06-18 06:04:40,831 | INFO | Fin wrapper API
+2026-06-18 06:08:55,703 | INFO | Début wrapper API : 5 incidents
+2026-06-18 06:08:55,937 | INFO | Fin wrapper API
+2026-07-02 05:03:46,184 | INFO | Début wrapper API : 1 incidents
+2026-07-02 05:03:46,185 | INFO | Mode mock : False
+2026-07-02 05:03:46,185 | INFO | Modèle utilisé : meta-llama/Llama-3.3-70B-Instruct-Turbo
+2026-07-02 05:03:56,738 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:03:58,382 | INFO | Fin wrapper API
+2026-07-02 05:07:36,801 | INFO | Début wrapper API : 5 incidents
+2026-07-02 05:07:36,801 | INFO | Mode mock : False
+2026-07-02 05:07:36,801 | INFO | Modèle utilisé : meta-llama/Llama-3.3-70B-Instruct-Turbo
+2026-07-02 05:07:42,734 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:07:45,830 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:07:56,904 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:08:02,015 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:08:08,622 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:08:09,626 | INFO | Fin wrapper API
+2026-07-02 05:26:15,993 | INFO | Début wrapper API : 20 incidents
+2026-07-02 05:26:15,993 | INFO | Mode mock : False
+2026-07-02 05:26:15,993 | INFO | Modèle utilisé : meta-llama/Llama-3.3-70B-Instruct-Turbo
+2026-07-02 05:26:22,140 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:26:25,349 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:26:30,097 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:26:34,108 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:26:38,026 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:26:41,292 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:26:45,503 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:26:49,161 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:26:53,582 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:26:57,867 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:27:01,702 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:27:06,581 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:27:12,557 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:27:16,911 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:27:20,816 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:27:24,615 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:27:29,170 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:27:31,866 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:27:34,424 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:27:38,429 | INFO | HTTP Request: POST https://api.together.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-02 05:27:39,434 | INFO | Fin wrapper API

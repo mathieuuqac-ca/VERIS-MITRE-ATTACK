@@ -1,0 +1,23 @@
+{
+  "project": "Mapping automatique VERIS ↔ MITRE ATT&CK",
+  "goal": "Automatiser les expériences et comparer les prédictions modèle avec la vérité terrain expert.",
+  "inputs": {
+    "incidents": "data/processed/incidents_clean.jsonl",
+    "predictions_zero_shot": "outputs/predictions_zero_shot.jsonl",
+    "predictions_rag": "outputs/rag/rag_predictions_mock.jsonl",
+    "ground_truth": "data/processed/ground_truth_attack_mapping.jsonl"
+  },
+  "outputs": {
+    "evaluation_dir": "outputs/evaluation",
+    "comparison_csv": "outputs/evaluation/experiments_comparison.csv"
+  },
+  "metrics": [
+    "TP",
+    "FP",
+    "FN",
+    "precision",
+    "recall",
+    "f1",
+    "exact_match"
+  ]
+}
