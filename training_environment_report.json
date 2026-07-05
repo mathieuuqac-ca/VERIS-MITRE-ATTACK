@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-06-25T07:14:35",
+  "python_version": "3.11.6 (tags/v3.11.6:8b6ee5b, Oct  2 2023, 14:57:12) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 78 Stepping 3, GenuineIntel",
+  "nvidia_smi_available": false,
+  "nvidia_smi_output": "",
+  "torch_available": true,
+  "torch_version": "2.12.1+cpu",
+  "cuda_available": false,
+  "cuda_version": null,
+  "gpu_count": 0,
+  "gpus": []
+}

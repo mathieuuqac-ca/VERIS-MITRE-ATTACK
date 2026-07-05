@@ -1,0 +1,12 @@
+{
+  "run_dir": "outputs\\training_runs\\mock_week6_run",
+  "global_step": 60,
+  "num_loss_points": 60,
+  "first_loss": 1.9106,
+  "last_loss": 0.4326,
+  "min_loss": 0.3744,
+  "num_checkpoints": 3,
+  "loss_csv": "outputs\\training_runs\\mock_week6_run\\loss_history.csv",
+  "loss_curve": "outputs\\training_runs\\mock_week6_run\\loss_curve.png",
+  "checkpoints_csv": "outputs\\training_runs\\mock_week6_run\\checkpoints_summary.csv"
+}

@@ -1,0 +1,12 @@
+{
+  "run_dir": "outputs\\training_runs\\mock_week6_run",
+  "keep_last": 2,
+  "dry_run": false,
+  "removed": [
+    "outputs\\training_runs\\mock_week6_run\\checkpoint-20"
+  ],
+  "remaining": [
+    "outputs\\training_runs\\mock_week6_run\\checkpoint-40",
+    "outputs\\training_runs\\mock_week6_run\\checkpoint-60"
+  ]
+}

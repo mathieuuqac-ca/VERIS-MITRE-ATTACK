@@ -1,0 +1,4 @@
+checkpoint,path,step,best_metric
+checkpoint-20,outputs\training_runs\mock_week6_run\checkpoint-20,20,1.0905
+checkpoint-40,outputs\training_runs\mock_week6_run\checkpoint-40,40,0.5929
+checkpoint-60,outputs\training_runs\mock_week6_run\checkpoint-60,60,0.3744
