@@ -1,0 +1,7 @@
+[
+  "tests/test_ingest_vcdb.py::test_extract_leaf_paths",
+  "tests/test_ingest_vcdb.py::test_normalize_incident_minimal",
+  "tests/test_llm_wrapper.py::test_extract_json_object_direct",
+  "tests/test_llm_wrapper.py::test_mock_response_valid",
+  "tests/test_llm_wrapper.py::test_parse_and_validate"
+]

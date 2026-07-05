@@ -1,0 +1,15 @@
+# Dépendances E3 semaine 6 — environnement d'entraînement, checkpoints, monitoring
+pandas>=2.0.0
+matplotlib>=3.7.0
+psutil>=5.9.0
+
+# Optionnel mais utile si l'environnement a un GPU / PyTorch.
+# Le script gpu_check.py fonctionne aussi si torch n'est pas installé.
+torch
+
+# Pour les vrais fine-tunings de E1, à installer selon le modèle choisi.
+# transformers
+# datasets
+# accelerate
+# peft
+# bitsandbytes

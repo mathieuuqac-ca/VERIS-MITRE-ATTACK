@@ -1,0 +1,12 @@
+# Git LFS configuration for datasets and generated large outputs.
+# After installing Git LFS, run:
+#   git lfs install
+#   git lfs track "data/raw/**"
+#   git lfs track "data/processed/**"
+# This file already contains the most useful patterns.
+
+data/raw/** filter=lfs diff=lfs merge=lfs -text
+data/processed/** filter=lfs diff=lfs merge=lfs -text
+*.jsonl filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
